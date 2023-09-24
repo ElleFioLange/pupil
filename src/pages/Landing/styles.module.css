@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  height: 500vh;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "landing"
+    "problem"
+    "solution"
+    "model"
+    "demo";
+}
+
+.landingContainer {
+  grid-area: landing;
+  position: relative;
+}
+
+.landingContainer > img {
+  position: absolute;
+  width: 25vw;
+  top: min(50px, 5vw);
+  left: min(50px, 5vw);
+  max-width: 250px;
+}
+
+.landingContainer > h1 {
+  position: absolute;
+
+  font-size: 8rem;
+}

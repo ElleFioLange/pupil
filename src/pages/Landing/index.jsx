@@ -1,24 +1,14 @@
-import { useContext } from "react";
-import { GlobalContext } from "../../context";
-import { generateIntro } from "../../util/openai";
+import styles from "./styles.module.css";
 
 export default function Landing() {
-  const globalContext = useContext(GlobalContext);
-
-  console.log(globalContext);
-
   return (
-    <main>
-      Hello world!
-      <button
-        onClick={() => {
-          if (globalContext) {
-            generateIntro(globalContext.globalState);
-          }
-        }}
-      >
-        Test me
-      </button>
+    <main className={styles.container}>
+      <section className={styles.landingContainer}>
+        <img src="/pupil-logo.svg" alt="Pupil" />
+        <h1>
+          Pupil learns to teach <span>you</span>
+        </h1>
+      </section>
     </main>
   );
 }

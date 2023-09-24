@@ -8,7 +8,6 @@ import Landing from "./pages/Landing";
 import Chat from "./pages/Chat";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { GlobalProvider } from "./components/util/GlobalProvider";
 
 const router = createBrowserRouter([
   {
@@ -22,10 +21,4 @@ const router = createBrowserRouter([
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <GlobalProvider>
-      <RouterProvider router={router} />
-    </GlobalProvider>
-  </React.StrictMode>
-);
+root.render(<RouterProvider router={router} />);

@@ -24,7 +24,7 @@
   grid-template-areas:
     "chat sidemenu"
     "input sidemenu";
-  grid-template-columns: 1fr 64px;
+  grid-template-columns: 1fr 80px;
   grid-template-rows: 1fr 98.5px;
 }
 
@@ -116,8 +116,16 @@
   box-shadow: var(--3d-shd-hov);
 }
 
-.libButton {
-  display: none;
+.confirmButton {
+  background: white;
+  box-shadow: var(--3d-shd);
+  transition: var(--3d-trns);
+  border-radius: var(--br-sm);
+  width: 100%;
+}
+
+.confirmButton:hover {
+  box-shadow: var(--3d-shd-hov);
 }
 
 .spinnerContainer {
@@ -165,7 +173,7 @@
 
 .sideMenuButtons > button {
   font-size: 2rem;
-  color: white;
+  color: rgb(var(--blu-2));
   padding: 16px;
   padding-bottom: 8px;
 }
