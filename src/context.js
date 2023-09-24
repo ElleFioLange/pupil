@@ -12,50 +12,50 @@ export const initGlobalState = {
   },
   chatState: "intro",
   chatHistory: [
-    {
-      user: "student",
-      content: "Hi this is a test message from the student",
-    },
-    {
-      user: "model",
-      content: "Hi this is a test message from the model",
-    },
-    {
-      user: "student",
-      content: "Hi this is a test message from the student",
-    },
-    {
-      user: "model",
-      content: "Hi this is a test message from the model",
-    },
-    {
-      user: "student",
-      content: "Hi this is a test message from the student",
-    },
-    {
-      user: "model",
-      content: "Hi this is a test message from the model",
-    },
-    {
-      user: "student",
-      content: "Hi this is a test message from the student",
-    },
-    {
-      user: "model",
-      content: "Hi this is a test message from the model",
-    },
-    {
-      user: "student",
-      content: "Hi this is a test message from the student",
-    },
-    {
-      user: "model",
-      content: "Hi this is a test message from the model",
-    },
-    {
-      user: "student",
-      content: "Hi this is a test message from the student",
-    },
+    // {
+    //   user: "student",
+    //   content: "Hi this is a test message from the student",
+    // },
+    // {
+    //   user: "model",
+    //   content: "Hi this is a test message from the model",
+    // },
+    // {
+    //   user: "student",
+    //   content: "Hi this is a test message from the student",
+    // },
+    // {
+    //   user: "model",
+    //   content: "Hi this is a test message from the model",
+    // },
+    // {
+    //   user: "student",
+    //   content: "Hi this is a test message from the student",
+    // },
+    // {
+    //   user: "model",
+    //   content: "Hi this is a test message from the model",
+    // },
+    // {
+    //   user: "student",
+    //   content: "Hi this is a test message from the student",
+    // },
+    // {
+    //   user: "model",
+    //   content: "Hi this is a test message from the model",
+    // },
+    // {
+    //   user: "student",
+    //   content: "Hi this is a test message from the student",
+    // },
+    // {
+    //   user: "model",
+    //   content: "Hi this is a test message from the model",
+    // },
+    // {
+    //   user: "student",
+    //   content: "Hi this is a test message from the student",
+    // },
   ],
   module: {
     id: 1,

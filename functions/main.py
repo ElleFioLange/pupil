@@ -26,8 +26,6 @@ def generateIntro(request):
     module = data["module"]
     chatHistory = data["chatHistory"]
 
-    llm = OpenAI(openai_api_key=os.environ["OPENAI_API_KEY"])
-
     prompt = PromptTemplate.from_template(
         """You are a warm, and friendly tutoring AI tutoring a student through a module their teacher has prepared.
 The module is titled {moduleTitle}.
@@ -47,3 +45,7 @@ Message:
         teacherInput=studentProfile.teacherInput,
         studentInput=studentProfile.studentInput,
     )
+
+    llm = OpenAI(openai_api_key=os.environ["OPENAI_API_KEY"])
+
+    llm.predict(prompt)

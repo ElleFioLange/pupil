@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./globals.css";
+import "remixicon/fonts/remixicon.css";
 
 import Landing from "./pages/Landing";
 import Chat from "./pages/Chat";
